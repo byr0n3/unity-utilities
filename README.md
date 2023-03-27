@@ -2,9 +2,9 @@
 A collection of utility files and classes for working with Unity projects. 
 
 ## Installation
-Assuming you're in your Unity project's root project, run the following:
+Add the following Git URL as a package dependency:
 
-`git submodule add git@github.com:byr0n3/unity-utilities.git Assets/Scripts/Utilities`
+`git@github.com:byr0n3/unity-utilities.git`
 
 ## `Byrone.Utilities`
 Contains global utilities and classes.
