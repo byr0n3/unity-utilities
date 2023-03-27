@@ -1,0 +1,11 @@
+{
+	"name": "nl.byrone.utilities",
+	"version": "0.1.0",
+	"displayName": "Unity Utilities",
+	"description": "A collection of utility scripts",
+	"unity": "2021.1",
+	"author": {
+		"name": "Byrone",
+		"url": "https://byrone.nl"
+	}
+}
