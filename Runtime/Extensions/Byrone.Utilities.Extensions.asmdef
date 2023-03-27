@@ -1,7 +1,7 @@
 {
     "name": "Byrone.Utilities.Extensions",
     "rootNamespace": "Byrone.Utilities.Extensions",
-    "references": [],
+    "references": ["Unity.Mathematics"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
