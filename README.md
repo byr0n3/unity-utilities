@@ -15,9 +15,6 @@ Custom event class for subscribing, unsubscribing and invoking events.
 #### Flusher
 Class for keeping track of [`System.Action`](https://learn.microsoft.com/en-us/dotnet/api/system.action)'s with the functionality to invoke/`Flush` all of them (useful for keeping track of `Event` unsubscribe functions).
 
-#### RandomUtilities
-Helper functions for randomization and such.
-
 #### RecyclePool
 Custom pooling system.
 
