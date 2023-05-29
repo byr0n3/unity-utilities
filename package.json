@@ -1,6 +1,6 @@
 {
 	"name": "nl.byrone.utilities",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"displayName": "Unity Utilities",
 	"description": "A collection of utility scripts",
 	"unity": "2021.1",
@@ -9,6 +9,6 @@
 		"url": "https://byrone.nl"
 	},
 	"dependencies": {
-		"com.unity.mathematics": "1.2.6"
+		"com.unity.mathematics": "^1.2.6"
 	}
 }
