@@ -153,7 +153,6 @@ namespace Byrone.Utilities
 		public void Dispose() =>
 			ArrayPool<byte>.Shared.Return(this.buffer);
 
-		[System.Obsolete("Alloc")]
 		public override string ToString() =>
 			this.encoding.GetString(this.buffer, 0, this.position);
 

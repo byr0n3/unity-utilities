@@ -1,7 +1,7 @@
 {
     "name": "Byrone.Utilities",
     "rootNamespace": "Byrone.Utilities",
-    "references": [],
+    "references": ["Byrone.Utilities.Extensions", "Byrone.Utilities.Helpers"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,

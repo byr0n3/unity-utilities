@@ -2,7 +2,7 @@
 
 namespace Byrone.Utilities.Helpers
 {
-	internal static partial class StringHelper
+	public static partial class StringHelper
 	{
 		private const byte powTable = 64;
 

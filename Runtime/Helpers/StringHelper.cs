@@ -2,7 +2,7 @@ using System.Runtime.CompilerServices;
 
 namespace Byrone.Utilities.Helpers
 {
-	internal static partial class StringHelper
+	public static partial class StringHelper
 	{
 		static StringHelper()
 		{
