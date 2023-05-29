@@ -6,7 +6,7 @@ using System.Text;
 using Byrone.Utilities.Extensions;
 using Byrone.Utilities.Helpers;
 
-namespace Byrone.Utilities.Utilities
+namespace Byrone.Utilities
 {
 	[StructLayout(LayoutKind.Sequential)]
 	public struct StringBuilder2 : System.IDisposable

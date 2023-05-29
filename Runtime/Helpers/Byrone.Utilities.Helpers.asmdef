@@ -1,6 +1,6 @@
 {
-    "name": "Byrone.Utilities",
-    "rootNamespace": "Byrone.Utilities",
+    "name": "Byrone.Utilities.Helpers",
+    "rootNamespace": "Byrone.Utilities.Helpers",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

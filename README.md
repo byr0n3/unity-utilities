@@ -6,6 +6,10 @@ Add the following Git URL as a package dependency:
 
 `git@github.com:byr0n3/unity-utilities.git`
 
+If you get a `permission denied` error in your console, try adding the package using the following URL:
+
+`https://github.com/byr0n3/unity-utilities.git`
+
 ## `Byrone.Utilities`
 Contains global utilities and classes.
 
