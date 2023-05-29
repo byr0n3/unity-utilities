@@ -18,5 +18,8 @@ Class for keeping track of [`System.Action`](https://learn.microsoft.com/en-us/d
 #### RecyclePool
 Custom pooling system.
 
+#### StringBuilder2
+Custom `StringBuilder` optimized for performance and minimum GC allocation.
+
 ## `Byrone.Utilities.Extensions`
 Extension methods for various classes
