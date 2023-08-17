@@ -24,9 +24,29 @@ namespace Byrone.Utilities.Extensions
 		/// <param name="list">The list instance</param>
 		/// <param name="rnd">The random instance</param>
 		/// <typeparam name="T">Type of the list elements</typeparam>
-		public static void Shuffle<T>(this List<T> list, Random rnd)
+		public static void Shuffle<T>(this List<T> list, ref Random rnd)
 		{
 			var n = list.Count - 1;
+
+			while (n > 1)
+			{
+				var k = rnd.NextInt(n);
+
+				(list[k], list[n]) = (list[n], list[k]);
+
+				n--;
+			}
+		}
+
+		/// <summary>
+		/// Shuffle the array contents
+		/// </summary>
+		/// <param name="list">The array instance</param>
+		/// <param name="rnd">The random instance</param>
+		/// <typeparam name="T">Type of the list elements</typeparam>
+		public static void Shuffle<T>(this List<T> list, ref Random rnd)
+		{
+			var n = list.Length - 1;
 
 			while (n > 1)
 			{
