@@ -1,6 +1,6 @@
 {
 	"name": "nl.byrone.utilities",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"displayName": "Unity Utilities",
 	"description": "A collection of utility scripts",
 	"unity": "2021.1",
