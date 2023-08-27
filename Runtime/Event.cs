@@ -32,7 +32,7 @@ namespace Byrone.Utilities
 				}
 				catch (System.Exception ex)
 				{
-#if DEBUG
+#if UNITY_EDTIOR
 					UnityEngine.Debug.LogError(ex);
 #endif
 				}
@@ -103,7 +103,7 @@ namespace Byrone.Utilities
 				}
 				catch (System.Exception ex)
 				{
-#if DEBUG
+#if UNITY_EDTIOR
 					UnityEngine.Debug.LogError(ex);
 #endif
 				}
